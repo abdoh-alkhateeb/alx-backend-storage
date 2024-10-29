@@ -5,4 +5,4 @@ BEGIN
 UPDATE items
 SET quantity = quantity - NEW.number
 WHERE name=NEW.item_name;
-ENG;
+END;
